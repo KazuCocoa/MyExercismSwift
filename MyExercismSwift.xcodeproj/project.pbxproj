@@ -12,7 +12,13 @@
 		729779991C977354002092A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729779971C977354002092A9 /* Main.storyboard */; };
 		7297799B1C977354002092A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7297799A1C977354002092A9 /* Assets.xcassets */; };
 		7297799E1C977354002092A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7297799C1C977354002092A9 /* LaunchScreen.storyboard */; };
-		729779A91C977355002092A9 /* MyExercismSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779A81C977355002092A9 /* MyExercismSwiftTests.swift */; };
+		729779B71C97755F002092A9 /* MyExercismSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779B61C97755F002092A9 /* MyExercismSwiftTests.swift */; };
+		729779BD1C9776AA002092A9 /* LeapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779BA1C9776AA002092A9 /* LeapTest.swift */; };
+		729779BE1C9776AA002092A9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 729779BB1C9776AA002092A9 /* README.md */; };
+		729779BF1C9776AA002092A9 /* Year.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779BC1C9776AA002092A9 /* Year.swift */; };
+		729779C61C977774002092A9 /* HammingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779C41C977774002092A9 /* HammingTest.swift */; };
+		729779C71C977774002092A9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 729779C51C977774002092A9 /* README.md */; };
+		729779C91C986E57002092A9 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779C81C986E56002092A9 /* Hamming.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +40,14 @@
 		7297799D1C977354002092A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7297799F1C977354002092A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		729779A41C977355002092A9 /* MyExercismSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyExercismSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		729779A81C977355002092A9 /* MyExercismSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExercismSwiftTests.swift; sourceTree = "<group>"; };
 		729779AA1C977355002092A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		729779B61C97755F002092A9 /* MyExercismSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyExercismSwiftTests.swift; sourceTree = "<group>"; };
+		729779BA1C9776AA002092A9 /* LeapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeapTest.swift; path = leap/LeapTest.swift; sourceTree = "<group>"; };
+		729779BB1C9776AA002092A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = leap/README.md; sourceTree = "<group>"; };
+		729779BC1C9776AA002092A9 /* Year.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Year.swift; path = leap/Year.swift; sourceTree = "<group>"; };
+		729779C41C977774002092A9 /* HammingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HammingTest.swift; sourceTree = "<group>"; };
+		729779C51C977774002092A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		729779C81C986E56002092A9 /* Hamming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamming.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +102,32 @@
 		729779A71C977355002092A9 /* MyExercismSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				729779A81C977355002092A9 /* MyExercismSwiftTests.swift */,
+				729779C31C977774002092A9 /* hamming */,
+				729779B91C97769E002092A9 /* leap */,
+				729779B61C97755F002092A9 /* MyExercismSwiftTests.swift */,
 				729779AA1C977355002092A9 /* Info.plist */,
 			);
 			path = MyExercismSwiftTests;
+			sourceTree = "<group>";
+		};
+		729779B91C97769E002092A9 /* leap */ = {
+			isa = PBXGroup;
+			children = (
+				729779BA1C9776AA002092A9 /* LeapTest.swift */,
+				729779BB1C9776AA002092A9 /* README.md */,
+				729779BC1C9776AA002092A9 /* Year.swift */,
+			);
+			name = leap;
+			sourceTree = "<group>";
+		};
+		729779C31C977774002092A9 /* hamming */ = {
+			isa = PBXGroup;
+			children = (
+				729779C41C977774002092A9 /* HammingTest.swift */,
+				729779C51C977774002092A9 /* README.md */,
+				729779C81C986E56002092A9 /* Hamming.swift */,
+			);
+			path = hamming;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +242,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				729779A91C977355002092A9 /* MyExercismSwiftTests.swift in Sources */,
+				729779C71C977774002092A9 /* README.md in Sources */,
+				729779BD1C9776AA002092A9 /* LeapTest.swift in Sources */,
+				729779C61C977774002092A9 /* HammingTest.swift in Sources */,
+				729779BF1C9776AA002092A9 /* Year.swift in Sources */,
+				729779BE1C9776AA002092A9 /* README.md in Sources */,
+				729779C91C986E57002092A9 /* Hamming.swift in Sources */,
+				729779B71C97755F002092A9 /* MyExercismSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,10 +391,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyExercismSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kazucocoa.example.MyExercismSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyExercismSwift.app/MyExercismSwift";
 			};
 			name = Debug;
@@ -363,10 +406,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyExercismSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kazucocoa.example.MyExercismSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyExercismSwift.app/MyExercismSwift";
 			};
 			name = Release;
@@ -390,6 +435,7 @@
 				729779AF1C977355002092A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		729779B01C977355002092A9 /* Build configuration list for PBXNativeTarget "MyExercismSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +444,7 @@
 				729779B21C977355002092A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

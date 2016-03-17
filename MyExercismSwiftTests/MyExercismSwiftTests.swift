@@ -1,11 +1,3 @@
-//
-//  MyExercismSwiftTests.swift
-//  MyExercismSwiftTests
-//
-//  Created by 松尾和昭 on 15/03/2016.
-//  Copyright © 2016 kazucocoa. All rights reserved.
-//
-
 import XCTest
 @testable import MyExercismSwift
 
