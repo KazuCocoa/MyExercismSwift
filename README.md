@@ -1,0 +1,3 @@
+# MyExercismSwift
+
+http://exercism.io/
