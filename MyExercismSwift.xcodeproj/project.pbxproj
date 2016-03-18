@@ -25,6 +25,9 @@
 		729779D41C9C3BD1002092A9 /* EtlTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779D21C9C3BD1002092A9 /* EtlTest.swift */; };
 		729779D51C9C3BD1002092A9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 729779D31C9C3BD1002092A9 /* README.md */; };
 		729779D71C9C3C75002092A9 /* Etl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779D61C9C3C75002092A9 /* Etl.swift */; };
+		729779DB1C9C4A6A002092A9 /* AnagramTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779D91C9C4A6A002092A9 /* AnagramTest.swift */; };
+		729779DC1C9C4A6A002092A9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 729779DA1C9C4A6A002092A9 /* README.md */; };
+		729779DE1C9C4AFC002092A9 /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779DD1C9C4AFC002092A9 /* Anagram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		729779D21C9C3BD1002092A9 /* EtlTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtlTest.swift; sourceTree = "<group>"; };
 		729779D31C9C3BD1002092A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		729779D61C9C3C75002092A9 /* Etl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Etl.swift; sourceTree = "<group>"; };
+		729779D91C9C4A6A002092A9 /* AnagramTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnagramTest.swift; sourceTree = "<group>"; };
+		729779DA1C9C4A6A002092A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		729779DD1C9C4AFC002092A9 /* Anagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anagram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,7 @@
 		729779A71C977355002092A9 /* MyExercismSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				729779D81C9C4A6A002092A9 /* anagram */,
 				729779D11C9C3BD1002092A9 /* etl */,
 				729779CA1C9AEAE4002092A9 /* word-count */,
 				729779C31C977774002092A9 /* hamming */,
@@ -162,6 +169,16 @@
 				729779D61C9C3C75002092A9 /* Etl.swift */,
 			);
 			path = etl;
+			sourceTree = "<group>";
+		};
+		729779D81C9C4A6A002092A9 /* anagram */ = {
+			isa = PBXGroup;
+			children = (
+				729779D91C9C4A6A002092A9 /* AnagramTest.swift */,
+				729779DA1C9C4A6A002092A9 /* README.md */,
+				729779DD1C9C4AFC002092A9 /* Anagram.swift */,
+			);
+			path = anagram;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +296,7 @@
 				729779C71C977774002092A9 /* README.md in Sources */,
 				729779BD1C9776AA002092A9 /* LeapTest.swift in Sources */,
 				729779C61C977774002092A9 /* HammingTest.swift in Sources */,
+				729779DB1C9C4A6A002092A9 /* AnagramTest.swift in Sources */,
 				729779CE1C9AEAE4002092A9 /* WordCountTest.swift in Sources */,
 				729779BF1C9776AA002092A9 /* Year.swift in Sources */,
 				729779D41C9C3BD1002092A9 /* EtlTest.swift in Sources */,
@@ -287,8 +305,10 @@
 				729779BE1C9776AA002092A9 /* README.md in Sources */,
 				729779C91C986E57002092A9 /* Hamming.swift in Sources */,
 				729779CD1C9AEAE4002092A9 /* README.md in Sources */,
+				729779DC1C9C4A6A002092A9 /* README.md in Sources */,
 				729779B71C97755F002092A9 /* MyExercismSwiftTests.swift in Sources */,
 				729779D71C9C3C75002092A9 /* Etl.swift in Sources */,
+				729779DE1C9C4AFC002092A9 /* Anagram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
