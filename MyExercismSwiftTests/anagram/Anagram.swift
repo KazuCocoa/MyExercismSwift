@@ -25,13 +25,17 @@ struct Anagram {
             }
         }
 
-        var re: [String] = []
-        results.forEach { result in
-            if result.lowercaseString != word.lowercaseString {
-                re.append(result)
+        return unique(results)
+    }
+
+    func unique(list: [String]) -> [String] {
+        var result: [String] = []
+        list.forEach { string in
+            if string.lowercaseString != word.lowercaseString {
+                result.append(string)
             }
         }
 
-        return re
+        return result
     }
 }
