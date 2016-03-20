@@ -28,6 +28,9 @@
 		729779DB1C9C4A6A002092A9 /* AnagramTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779D91C9C4A6A002092A9 /* AnagramTest.swift */; };
 		729779DC1C9C4A6A002092A9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 729779DA1C9C4A6A002092A9 /* README.md */; };
 		729779DE1C9C4AFC002092A9 /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779DD1C9C4AFC002092A9 /* Anagram.swift */; };
+		729779E21C9DAAF9002092A9 /* NucleotideCountTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779E01C9DAAF9002092A9 /* NucleotideCountTest.swift */; };
+		729779E31C9DAAF9002092A9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 729779E11C9DAAF9002092A9 /* README.md */; };
+		729779E51C9DAB26002092A9 /* NucleotideCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779E41C9DAB26002092A9 /* NucleotideCount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,9 @@
 		729779D91C9C4A6A002092A9 /* AnagramTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnagramTest.swift; sourceTree = "<group>"; };
 		729779DA1C9C4A6A002092A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		729779DD1C9C4AFC002092A9 /* Anagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anagram.swift; sourceTree = "<group>"; };
+		729779E01C9DAAF9002092A9 /* NucleotideCountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NucleotideCountTest.swift; sourceTree = "<group>"; };
+		729779E11C9DAAF9002092A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		729779E41C9DAB26002092A9 /* NucleotideCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NucleotideCount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,7 @@
 		729779A71C977355002092A9 /* MyExercismSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				729779DF1C9DAAF9002092A9 /* nucleotide-count */,
 				729779D81C9C4A6A002092A9 /* anagram */,
 				729779D11C9C3BD1002092A9 /* etl */,
 				729779CA1C9AEAE4002092A9 /* word-count */,
@@ -179,6 +186,16 @@
 				729779DD1C9C4AFC002092A9 /* Anagram.swift */,
 			);
 			path = anagram;
+			sourceTree = "<group>";
+		};
+		729779DF1C9DAAF9002092A9 /* nucleotide-count */ = {
+			isa = PBXGroup;
+			children = (
+				729779E01C9DAAF9002092A9 /* NucleotideCountTest.swift */,
+				729779E11C9DAAF9002092A9 /* README.md */,
+				729779E41C9DAB26002092A9 /* NucleotideCount.swift */,
+			);
+			path = "nucleotide-count";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,10 +316,13 @@
 				729779DB1C9C4A6A002092A9 /* AnagramTest.swift in Sources */,
 				729779CE1C9AEAE4002092A9 /* WordCountTest.swift in Sources */,
 				729779BF1C9776AA002092A9 /* Year.swift in Sources */,
+				729779E31C9DAAF9002092A9 /* README.md in Sources */,
 				729779D41C9C3BD1002092A9 /* EtlTest.swift in Sources */,
 				729779D51C9C3BD1002092A9 /* README.md in Sources */,
+				729779E51C9DAB26002092A9 /* NucleotideCount.swift in Sources */,
 				729779D01C9AEB04002092A9 /* WordCount.swift in Sources */,
 				729779BE1C9776AA002092A9 /* README.md in Sources */,
+				729779E21C9DAAF9002092A9 /* NucleotideCountTest.swift in Sources */,
 				729779C91C986E57002092A9 /* Hamming.swift in Sources */,
 				729779CD1C9AEAE4002092A9 /* README.md in Sources */,
 				729779DC1C9C4A6A002092A9 /* README.md in Sources */,
