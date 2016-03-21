@@ -1,14 +1,46 @@
 import Foundation
 
+private extension String {
+    subscript (range: Range<Int>) -> String {
+        get {
+            let start = startIndex.advancedBy(range.startIndex)
+            let end = start.advancedBy(range.endIndex - range.startIndex)
+
+            return self[Range(start: start, end: end)]
+        }
+    }
+
+    var onlyDigits: String {
+        return String(characters.filter { $0.isDigit })
+    }
+}
+
+private extension Character {
+    var isDigit: Bool {
+        return "0123456789".characters.contains(self)
+    }
+}
+
 struct PhoneNumber: CustomStringConvertible {
-    var number: String = ""
-    var areaCode: String = ""
+    var number: String
 
     let badNumber: String = "0000000000"
 
     init (_ phoneNumber: String) {
-        self.number = trim(format(phoneNumber))
-        self.areaCode = getArea(self.number)
+        let digits = phoneNumber.onlyDigits
+
+        switch digits.characters.count {
+        case 10:
+            number = digits
+        case 11 where digits.hasPrefix("1"):
+            number = digits[1...10]
+        default:
+            number = badNumber
+        }
+    }
+
+    var areaCode: String {
+        return number[0...2]
     }
 
     var description: String {
@@ -16,34 +48,5 @@ struct PhoneNumber: CustomStringConvertible {
         let final = (number as NSString).substringFromIndex(6)
 
         return "(\(areaCode)) \(prefix)-\(final)"
-    }
-
-    private func trim(phoneNumber: String) -> String {
-        let phoneNumbercount = phoneNumber.characters.count
-        if phoneNumbercount == 11 && phoneNumber.characters.first == "1" {
-            return (phoneNumber as NSString).substringFromIndex(1)
-        } else if phoneNumbercount == 10 {
-            return phoneNumber
-        } else {
-            return self.badNumber
-        }
-    }
-
-    private func format(startingNumber: String) -> String {
-        let pattern = "[0-9]+"
-        let regex = try! NSRegularExpression(pattern: pattern, options: .CaseInsensitive)
-
-        let matches = regex.matchesInString(startingNumber, options: [], range: NSMakeRange(0, startingNumber.characters.count))
-
-        var results: [String] = []
-        matches.forEach { match in
-            results.append((startingNumber as NSString).substringWithRange(match.rangeAtIndex(0)))
-        }
-
-        return results.joinWithSeparator("")
-    }
-
-    private func getArea(formatedPhoneNumber: String) -> String {
-        return (formatedPhoneNumber as NSString).substringToIndex(3)
     }
 }
