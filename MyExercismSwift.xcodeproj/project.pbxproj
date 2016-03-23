@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		724EC5441CA1AE2F00D2159D /* GradeSchoolTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EC5421CA1AE2F00D2159D /* GradeSchoolTest.swift */; };
+		724EC5451CA1AE2F00D2159D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 724EC5431CA1AE2F00D2159D /* README.md */; };
+		724EC5471CA1AE5900D2159D /* GradeSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EC5461CA1AE5900D2159D /* GradeSchool.swift */; };
 		729779941C977354002092A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779931C977354002092A9 /* AppDelegate.swift */; };
 		729779961C977354002092A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779951C977354002092A9 /* ViewController.swift */; };
 		729779991C977354002092A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729779971C977354002092A9 /* Main.storyboard */; };
@@ -47,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		724EC5421CA1AE2F00D2159D /* GradeSchoolTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchoolTest.swift; sourceTree = "<group>"; };
+		724EC5431CA1AE2F00D2159D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		724EC5461CA1AE5900D2159D /* GradeSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchool.swift; sourceTree = "<group>"; };
 		729779901C977354002092A9 /* MyExercismSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyExercismSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729779931C977354002092A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		729779951C977354002092A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +104,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		724EC5411CA1AE2F00D2159D /* grade-school */ = {
+			isa = PBXGroup;
+			children = (
+				724EC5421CA1AE2F00D2159D /* GradeSchoolTest.swift */,
+				724EC5431CA1AE2F00D2159D /* README.md */,
+				724EC5461CA1AE5900D2159D /* GradeSchool.swift */,
+			);
+			path = "grade-school";
+			sourceTree = "<group>";
+		};
 		729779871C977353002092A9 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +148,7 @@
 		729779A71C977355002092A9 /* MyExercismSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				724EC5411CA1AE2F00D2159D /* grade-school */,
 				72D30E0F1C9F0DF30005AD19 /* phone-number */,
 				729779DF1C9DAAF9002092A9 /* nucleotide-count */,
 				729779D81C9C4A6A002092A9 /* anagram */,
@@ -328,13 +345,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				729779C71C977774002092A9 /* README.md in Sources */,
+				724EC5441CA1AE2F00D2159D /* GradeSchoolTest.swift in Sources */,
 				729779BD1C9776AA002092A9 /* LeapTest.swift in Sources */,
 				729779C61C977774002092A9 /* HammingTest.swift in Sources */,
 				72D30E131C9F0DF30005AD19 /* README.md in Sources */,
 				72D30E121C9F0DF30005AD19 /* PhoneNumberTest.swift in Sources */,
+				724EC5451CA1AE2F00D2159D /* README.md in Sources */,
 				729779DB1C9C4A6A002092A9 /* AnagramTest.swift in Sources */,
 				729779CE1C9AEAE4002092A9 /* WordCountTest.swift in Sources */,
 				729779BF1C9776AA002092A9 /* Year.swift in Sources */,
+				724EC5471CA1AE5900D2159D /* GradeSchool.swift in Sources */,
 				729779E31C9DAAF9002092A9 /* README.md in Sources */,
 				729779D41C9C3BD1002092A9 /* EtlTest.swift in Sources */,
 				729779D51C9C3BD1002092A9 /* README.md in Sources */,
