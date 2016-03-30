@@ -1,27 +1,12 @@
-enum TwelveDay: String {
-    case first = "a Partridge in a Pear Tree"
-    case second = "two Turtle Doves, and a Partridge in a Pear Tree"
-    case third
-    case fourth
-    case fifth
-    case sixth
-    case seventh
-    case eighth
-    case ninth
-    case tenth
-    case eleventh
-    case twelfth
-}
-
 struct TwelveDaysSong {
 
-    static func sing() -> String{
+    static func sing() -> String {
         return verses(1,12)
     }
 
-    static func verses(start:Int, _ end:Int) ->String{
+    static func verses(start: Int, _ end: Int) -> String {
         var string2return = ""
-        for each in start...end{
+        (start...end).forEach { each in
             string2return += verse(each) + "\n"
         }
 
