@@ -46,9 +46,12 @@
 		72A6BF721CA972D500136343 /* AccumulateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A6BF701CA972D500136343 /* AccumulateTest.swift */; };
 		72A6BF731CA972D500136343 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 72A6BF711CA972D500136343 /* README.md */; };
 		72A6BF751CA972F100136343 /* Accumulate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A6BF741CA972F100136343 /* Accumulate.swift */; };
+		72B334F81CAC1AC900599B26 /* TwelveDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B334F71CAC1AC900599B26 /* TwelveDays.swift */; };
 		72B3C8E01CA9E8BF0017CC0A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 72B3C8DE1CA9E8BF0017CC0A /* README.md */; };
 		72B3C8E11CA9E8BF0017CC0A /* SumOfMultiplesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3C8DF1CA9E8BF0017CC0A /* SumOfMultiplesTest.swift */; };
 		72B3C8E31CA9E95F0017CC0A /* SumOfMultiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3C8E21CA9E95F0017CC0A /* SumOfMultiples.swift */; };
+		72B3C8E71CAAE4040017CC0A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 72B3C8E51CAAE4040017CC0A /* README.md */; };
+		72B3C8E81CAAE4040017CC0A /* TwelveDaysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3C8E61CAAE4040017CC0A /* TwelveDaysTest.swift */; };
 		72D30E121C9F0DF30005AD19 /* PhoneNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D30E101C9F0DF30005AD19 /* PhoneNumberTest.swift */; };
 		72D30E131C9F0DF30005AD19 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 72D30E111C9F0DF30005AD19 /* README.md */; };
 		72D30E151C9F0E130005AD19 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D30E141C9F0E130005AD19 /* PhoneNumber.swift */; };
@@ -108,9 +111,12 @@
 		72A6BF701CA972D500136343 /* AccumulateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccumulateTest.swift; sourceTree = "<group>"; };
 		72A6BF711CA972D500136343 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		72A6BF741CA972F100136343 /* Accumulate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accumulate.swift; sourceTree = "<group>"; };
+		72B334F71CAC1AC900599B26 /* TwelveDays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwelveDays.swift; sourceTree = "<group>"; };
 		72B3C8DE1CA9E8BF0017CC0A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		72B3C8DF1CA9E8BF0017CC0A /* SumOfMultiplesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumOfMultiplesTest.swift; sourceTree = "<group>"; };
 		72B3C8E21CA9E95F0017CC0A /* SumOfMultiples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumOfMultiples.swift; sourceTree = "<group>"; };
+		72B3C8E51CAAE4040017CC0A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		72B3C8E61CAAE4040017CC0A /* TwelveDaysTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwelveDaysTest.swift; sourceTree = "<group>"; };
 		72D30E101C9F0DF30005AD19 /* PhoneNumberTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberTest.swift; sourceTree = "<group>"; };
 		72D30E111C9F0DF30005AD19 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		72D30E141C9F0E130005AD19 /* PhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
@@ -178,6 +184,7 @@
 		729779A71C977355002092A9 /* MyExercismSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				72B3C8E41CAAE4040017CC0A /* twelve-days */,
 				72B3C8DD1CA9E8BF0017CC0A /* sum-of-multiples */,
 				72A6BF6F1CA972D500136343 /* accumulate */,
 				72A6BF681CA7709B00136343 /* allergies */,
@@ -305,6 +312,16 @@
 				72B3C8E21CA9E95F0017CC0A /* SumOfMultiples.swift */,
 			);
 			path = "sum-of-multiples";
+			sourceTree = "<group>";
+		};
+		72B3C8E41CAAE4040017CC0A /* twelve-days */ = {
+			isa = PBXGroup;
+			children = (
+				72B3C8E51CAAE4040017CC0A /* README.md */,
+				72B3C8E61CAAE4040017CC0A /* TwelveDaysTest.swift */,
+				72B334F71CAC1AC900599B26 /* TwelveDays.swift */,
+			);
+			path = "twelve-days";
 			sourceTree = "<group>";
 		};
 		72D30E0F1C9F0DF30005AD19 /* phone-number */ = {
@@ -438,6 +455,7 @@
 				72A6BF731CA972D500136343 /* README.md in Sources */,
 				72A6BF6B1CA7709B00136343 /* AllergiesTest.swift in Sources */,
 				72B3C8E31CA9E95F0017CC0A /* SumOfMultiples.swift in Sources */,
+				72B3C8E81CAAE4040017CC0A /* TwelveDaysTest.swift in Sources */,
 				72D30E131C9F0DF30005AD19 /* README.md in Sources */,
 				72D30E121C9F0DF30005AD19 /* PhoneNumberTest.swift in Sources */,
 				72A6BF6C1CA7709B00136343 /* README.md in Sources */,
@@ -448,6 +466,7 @@
 				72A6BF651CA6BFCF00136343 /* README.md in Sources */,
 				724EC5471CA1AE5900D2159D /* GradeSchool.swift in Sources */,
 				729779E31C9DAAF9002092A9 /* README.md in Sources */,
+				72B334F81CAC1AC900599B26 /* TwelveDays.swift in Sources */,
 				729779D41C9C3BD1002092A9 /* EtlTest.swift in Sources */,
 				729779D51C9C3BD1002092A9 /* README.md in Sources */,
 				72B3C8E11CA9E8BF0017CC0A /* SumOfMultiplesTest.swift in Sources */,
@@ -468,6 +487,7 @@
 				729779DC1C9C4A6A002092A9 /* README.md in Sources */,
 				729779B71C97755F002092A9 /* MyExercismSwiftTests.swift in Sources */,
 				729779D71C9C3C75002092A9 /* Etl.swift in Sources */,
+				72B3C8E71CAAE4040017CC0A /* README.md in Sources */,
 				729779DE1C9C4AFC002092A9 /* Anagram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
