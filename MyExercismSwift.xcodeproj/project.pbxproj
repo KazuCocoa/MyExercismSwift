@@ -10,6 +10,9 @@
 		724EC5441CA1AE2F00D2159D /* GradeSchoolTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EC5421CA1AE2F00D2159D /* GradeSchoolTest.swift */; };
 		724EC5451CA1AE2F00D2159D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 724EC5431CA1AE2F00D2159D /* README.md */; };
 		724EC5471CA1AE5900D2159D /* GradeSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EC5461CA1AE5900D2159D /* GradeSchool.swift */; };
+		72874C621CAD6E8F005115A6 /* GigasecondTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72874C601CAD6E8F005115A6 /* GigasecondTest.swift */; };
+		72874C631CAD6E8F005115A6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 72874C611CAD6E8F005115A6 /* README.md */; };
+		72874C651CAD6EEE005115A6 /* Gigasecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72874C641CAD6EEE005115A6 /* Gigasecond.swift */; };
 		729779941C977354002092A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779931C977354002092A9 /* AppDelegate.swift */; };
 		729779961C977354002092A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779951C977354002092A9 /* ViewController.swift */; };
 		729779991C977354002092A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729779971C977354002092A9 /* Main.storyboard */; };
@@ -74,6 +77,9 @@
 		724EC5421CA1AE2F00D2159D /* GradeSchoolTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchoolTest.swift; sourceTree = "<group>"; };
 		724EC5431CA1AE2F00D2159D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		724EC5461CA1AE5900D2159D /* GradeSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchool.swift; sourceTree = "<group>"; };
+		72874C601CAD6E8F005115A6 /* GigasecondTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GigasecondTest.swift; sourceTree = "<group>"; };
+		72874C611CAD6E8F005115A6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		72874C641CAD6EEE005115A6 /* Gigasecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gigasecond.swift; sourceTree = "<group>"; };
 		729779901C977354002092A9 /* MyExercismSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyExercismSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729779931C977354002092A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		729779951C977354002092A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -156,6 +162,16 @@
 			path = "grade-school";
 			sourceTree = "<group>";
 		};
+		72874C5F1CAD6E8F005115A6 /* gigasecond */ = {
+			isa = PBXGroup;
+			children = (
+				72874C601CAD6E8F005115A6 /* GigasecondTest.swift */,
+				72874C611CAD6E8F005115A6 /* README.md */,
+				72874C641CAD6EEE005115A6 /* Gigasecond.swift */,
+			);
+			path = gigasecond;
+			sourceTree = "<group>";
+		};
 		729779871C977353002092A9 = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +206,7 @@
 		729779A71C977355002092A9 /* MyExercismSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				72874C5F1CAD6E8F005115A6 /* gigasecond */,
 				72B334F91CAC28ED00599B26 /* space-age */,
 				72B3C8E41CAAE4040017CC0A /* twelve-days */,
 				72B3C8DD1CA9E8BF0017CC0A /* sum-of-multiples */,
@@ -469,6 +486,7 @@
 				729779BD1C9776AA002092A9 /* LeapTest.swift in Sources */,
 				729779C61C977774002092A9 /* HammingTest.swift in Sources */,
 				72A6BF5D1CA57D1A00136343 /* README.md in Sources */,
+				72874C631CAD6E8F005115A6 /* README.md in Sources */,
 				72A6BF731CA972D500136343 /* README.md in Sources */,
 				72A6BF6B1CA7709B00136343 /* AllergiesTest.swift in Sources */,
 				72B3C8E31CA9E95F0017CC0A /* SumOfMultiples.swift in Sources */,
@@ -486,11 +504,13 @@
 				724EC5471CA1AE5900D2159D /* GradeSchool.swift in Sources */,
 				729779E31C9DAAF9002092A9 /* README.md in Sources */,
 				72B334F81CAC1AC900599B26 /* TwelveDays.swift in Sources */,
+				72874C651CAD6EEE005115A6 /* Gigasecond.swift in Sources */,
 				729779D41C9C3BD1002092A9 /* EtlTest.swift in Sources */,
 				729779D51C9C3BD1002092A9 /* README.md in Sources */,
 				72B3C8E11CA9E8BF0017CC0A /* SumOfMultiplesTest.swift in Sources */,
 				72A6BF5E1CA57D1A00136343 /* RobotNameTest.swift in Sources */,
 				72D30E151C9F0E130005AD19 /* PhoneNumber.swift in Sources */,
+				72874C621CAD6E8F005115A6 /* GigasecondTest.swift in Sources */,
 				729779E51C9DAB26002092A9 /* NucleotideCount.swift in Sources */,
 				729779D01C9AEB04002092A9 /* WordCount.swift in Sources */,
 				72A6BF751CA972F100136343 /* Accumulate.swift in Sources */,
