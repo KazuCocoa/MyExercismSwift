@@ -13,6 +13,9 @@
 		72874C621CAD6E8F005115A6 /* GigasecondTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72874C601CAD6E8F005115A6 /* GigasecondTest.swift */; };
 		72874C631CAD6E8F005115A6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 72874C611CAD6E8F005115A6 /* README.md */; };
 		72874C651CAD6EEE005115A6 /* Gigasecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72874C641CAD6EEE005115A6 /* Gigasecond.swift */; };
+		72874C691CAF3FA0005115A6 /* MeetupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72874C671CAF3FA0005115A6 /* MeetupTest.swift */; };
+		72874C6A1CAF3FA0005115A6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 72874C681CAF3FA0005115A6 /* README.md */; };
+		72874C6C1CAF3FBA005115A6 /* Meetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72874C6B1CAF3FBA005115A6 /* Meetup.swift */; };
 		729779941C977354002092A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779931C977354002092A9 /* AppDelegate.swift */; };
 		729779961C977354002092A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729779951C977354002092A9 /* ViewController.swift */; };
 		729779991C977354002092A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729779971C977354002092A9 /* Main.storyboard */; };
@@ -80,6 +83,9 @@
 		72874C601CAD6E8F005115A6 /* GigasecondTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GigasecondTest.swift; sourceTree = "<group>"; };
 		72874C611CAD6E8F005115A6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		72874C641CAD6EEE005115A6 /* Gigasecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gigasecond.swift; sourceTree = "<group>"; };
+		72874C671CAF3FA0005115A6 /* MeetupTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupTest.swift; sourceTree = "<group>"; };
+		72874C681CAF3FA0005115A6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		72874C6B1CAF3FBA005115A6 /* Meetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meetup.swift; sourceTree = "<group>"; };
 		729779901C977354002092A9 /* MyExercismSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyExercismSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729779931C977354002092A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		729779951C977354002092A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +178,16 @@
 			path = gigasecond;
 			sourceTree = "<group>";
 		};
+		72874C661CAF3FA0005115A6 /* meetup */ = {
+			isa = PBXGroup;
+			children = (
+				72874C671CAF3FA0005115A6 /* MeetupTest.swift */,
+				72874C681CAF3FA0005115A6 /* README.md */,
+				72874C6B1CAF3FBA005115A6 /* Meetup.swift */,
+			);
+			path = meetup;
+			sourceTree = "<group>";
+		};
 		729779871C977353002092A9 = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +222,7 @@
 		729779A71C977355002092A9 /* MyExercismSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				72874C661CAF3FA0005115A6 /* meetup */,
 				72874C5F1CAD6E8F005115A6 /* gigasecond */,
 				72B334F91CAC28ED00599B26 /* space-age */,
 				72B3C8E41CAAE4040017CC0A /* twelve-days */,
@@ -491,6 +508,7 @@
 				72A6BF6B1CA7709B00136343 /* AllergiesTest.swift in Sources */,
 				72B3C8E31CA9E95F0017CC0A /* SumOfMultiples.swift in Sources */,
 				72B3C8E81CAAE4040017CC0A /* TwelveDaysTest.swift in Sources */,
+				72874C6C1CAF3FBA005115A6 /* Meetup.swift in Sources */,
 				72B334FD1CAC28ED00599B26 /* SpaceAgeTest.swift in Sources */,
 				72D30E131C9F0DF30005AD19 /* README.md in Sources */,
 				72B334FF1CAC290400599B26 /* SpaceAge.swift in Sources */,
@@ -517,6 +535,7 @@
 				729779BE1C9776AA002092A9 /* README.md in Sources */,
 				72A6BF641CA6BFCF00136343 /* PerfectNumbersTest.swift in Sources */,
 				72A6BF671CA6C0B200136343 /* NumberClassifier.swift in Sources */,
+				72874C691CAF3FA0005115A6 /* MeetupTest.swift in Sources */,
 				72A6BF6E1CA7718C00136343 /* Allergies.swift in Sources */,
 				729779E21C9DAAF9002092A9 /* NucleotideCountTest.swift in Sources */,
 				729779C91C986E57002092A9 /* Hamming.swift in Sources */,
@@ -524,6 +543,7 @@
 				72B3C8E01CA9E8BF0017CC0A /* README.md in Sources */,
 				72A6BF721CA972D500136343 /* AccumulateTest.swift in Sources */,
 				729779DC1C9C4A6A002092A9 /* README.md in Sources */,
+				72874C6A1CAF3FA0005115A6 /* README.md in Sources */,
 				729779B71C97755F002092A9 /* MyExercismSwiftTests.swift in Sources */,
 				729779D71C9C3C75002092A9 /* Etl.swift in Sources */,
 				72B3C8E71CAAE4040017CC0A /* README.md in Sources */,
