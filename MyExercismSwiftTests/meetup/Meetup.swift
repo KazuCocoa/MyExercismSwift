@@ -1,48 +1,50 @@
-struct Meetup: CustomStringConvertible {
+// I should refactor. 
+
+struct MeetupDate: CustomStringConvertible {
+    let returnString: String
+
+    init (from: String) {
+        self.returnString = from
+    }
+
+    var description: String {
+        return returnString
+    }
+}
+
+struct Meetup {
+
     let year: Int
     let month: Int
-
-    private var weekDay: Int = 0
-    private var schedule: String = ""
 
     init (year: Int, month: Int) {
         self.year = year
         self.month = month
     }
 
-    mutating func update(weekDay: Int, which schedule: String) {
-        self.weekDay = weekDay
-        self.schedule = schedule
-    }
-
-    mutating func day(weekDay: Int, which schedule: String) -> Meetup {
-        update(weekDay, which: schedule)
-        return self
-    }
-
-    var description: String {
+    func day(weekDay: Int, which schedule: String) -> MeetupDate {
         var s_day: Int = 1
 
         switch schedule {
         case "1st":
-            s_day = first(self.month, weekday: self.weekDay)
+            s_day = first(self.month, weekday: weekDay)
         case "2nd":
-            s_day = first(self.month, weekday: self.weekDay) + 1 * 7
+            s_day = first(self.month, weekday: weekDay) + 1 * 7
         case "3rd":
-            s_day = first(self.month, weekday: self.weekDay) + 2 * 7
+            s_day = first(self.month, weekday: weekDay) + 2 * 7
         case "4th":
-            s_day = first(self.month, weekday: self.weekDay) + 3 * 7
+            s_day = first(self.month, weekday: weekDay) + 3 * 7
         case "last":
-            s_day = last(self.month, weekday: self.weekDay)
+            s_day = last(self.month, weekday: weekDay)
         case "teenth":
-            s_day = teenth(self.month, weekday: self.weekDay)
+            s_day = teenth(self.month, weekday: weekDay)
         default:
-            s_day = first(self.month, weekday: self.weekDay)
+            s_day = first(self.month, weekday: weekDay)
         }
 
         let month = self.month < 10 ? "0\(self.month)" : "\(self.month)"
         let day = s_day < 10 ? "0\(s_day)" : "\(s_day)"
-        return "\(year)-\(month)-\(day)"
+        return MeetupDate(from: "\(self.year)-\(month)-\(day)")
     }
 
     // (Sunday:1, Monday:2, Tuesday:3, Wednesday:4, Thursday:5, Friday:6, Saturday:7)
